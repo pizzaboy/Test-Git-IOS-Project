@@ -21,6 +21,7 @@
 		B6FD447818DC6478006E9458 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6FD445A18DC6477006E9458 /* UIKit.framework */; };
 		B6FD448018DC6478006E9458 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6FD447E18DC6478006E9458 /* InfoPlist.strings */; };
 		B6FD448218DC6478006E9458 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD448118DC6478006E9458 /* Git_TestTests.m */; };
+		B6FD448D18DC7D4D006E9458 /* PYTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD448C18DC7D4D006E9458 /* PYTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		B6FD447D18DC6478006E9458 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		B6FD447F18DC6478006E9458 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6FD448118DC6478006E9458 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		B6FD448B18DC7D4D006E9458 /* PYTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PYTest.h; path = ../PYTest.h; sourceTree = "<group>"; };
+		B6FD448C18DC7D4D006E9458 /* PYTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PYTest.m; path = ../PYTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		B6FD445C18DC6477006E9458 /* Git Test */ = {
 			isa = PBXGroup;
 			children = (
+				B6FD448B18DC7D4D006E9458 /* PYTest.h */,
+				B6FD448C18DC7D4D006E9458 /* PYTest.m */,
 				B6FD446518DC6477006E9458 /* PYAppDelegate.h */,
 				B6FD446618DC6477006E9458 /* PYAppDelegate.m */,
 				B6FD446818DC6477006E9458 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6FD448D18DC7D4D006E9458 /* PYTest.m in Sources */,
 				B6FD446D18DC6477006E9458 /* PYViewController.m in Sources */,
 				B6FD446318DC6477006E9458 /* main.m in Sources */,
 				B6FD446718DC6477006E9458 /* PYAppDelegate.m in Sources */,
